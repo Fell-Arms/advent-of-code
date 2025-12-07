@@ -28,7 +28,7 @@ def solve_part_one(paper_grid):
 
     for row in range(0, len(paper_grid)):
 
-        for column in range(0, len(row)):
+        for column in range(0, len(paper_grid[row])):
             row_item = paper_grid[row][column]
 
             if row_item == '.':
@@ -44,7 +44,13 @@ def solve_part_one(paper_grid):
 
 def row_item_is_accessible(grid, free_space_coordinates, row, column, search_area = 1):
 
-    item = grid[row]    
+    item = grid[row]
+
+    items_in_area = 0
+
+    while search_area > 0:
+
+
 
 
     return True

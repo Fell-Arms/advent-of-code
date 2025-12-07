@@ -57,6 +57,10 @@ def solve_part_one(battery_banks):
 
 
 def solve_part_two(battery_banks):
+    # TODO: part 2 - find the largest 1st number and cut the string based on that index
+
+    # NOTE: cut the string based on each number (-1 to length, remove the used number)
+
     max_joltage_list = []
     max_joltage_sum = 0
 
